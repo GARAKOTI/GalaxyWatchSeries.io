@@ -19,7 +19,7 @@ body {
   padding: 10px;
   width: 100%;
   height: 12%;
-  background-color: rgb(26, 26, 171);
+  background-color: #0e21a0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -51,10 +51,68 @@ a:hover {
   border: 1px solid rgb(11, 11, 23);
   outline: none;
   font-size: medium;
+  cursor: pointer;
 }
 
 .logo img {
   margin-top: 20px;
   height: 30%;
   width: 80%;
+}
+
+.main {
+  width: 100%;
+  height: 88%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .right {
+  height: 100%;
+  width: 50%;
+}
+#rightContent {
+  margin: 8rem 0 0 6rem;
+  padding: 20px;
+}
+#rightContent h1 {
+  margin-bottom: 20px;
+}
+span {
+  color: #0e21a0;
+  font-size: 40px;
+}
+
+.btn {
+  width: 100px;
+  height: 50px;
+  border-radius: 30px;
+  margin-left: 0px;
+  border: none;
+  outline: none;
+  font-size: medium;
+  margin-top: 20px;
+  background-color: #0e21a0;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.Wrapper .main .left {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left .leftImg img {
+  height: 350px;
+  width: 450px;
+  transform: rotate(30deg);
+  transition: all 1s ease-out;
+  z-index: 0;
+}
+.left .leftImg img:hover {
+  transform: rotate(0deg) scale(1.25);
 }
